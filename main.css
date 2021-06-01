@@ -1,0 +1,40 @@
+:root{
+    --fontFamily: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --textColor: #C3D4E6;
+    --linkColor: #9ca9b8;
+    --backgroundColor: #34495e;
+}
+html{
+    background-color: var(--backgroundColor);
+    font-size: 18px;
+}
+.text{
+    font-family: var(--fontFamily);
+    margin-left: 2%;
+    color: var(--textColor);}
+.kildeText{
+    font-family: var(--fontFamily);
+    margin-left: 2%;
+    color: var(--linkColor);}
+.infoDiv{
+    margin-right: 37%;}
+.contentDiv{
+    margin-left: 8%;
+}
+.linkDiv{
+    width: 9%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
+#innhold{
+    color: var(--linkColor);
+}
+
+/*Link*/
+.HLink:link, .HLink:active, .HLink:hover, .HLink:visited{ text-decoration: none; color: var(--linkColor);}
+
+/*Scrollbar*/
+body::-webkit-scrollbar {width: 0.5rem;}
+body::-webkit-scrollbar-track {background: #212121;}
+body::-webkit-scrollbar-thumb {background: #555555;}
